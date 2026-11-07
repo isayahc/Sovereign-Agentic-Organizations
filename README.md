@@ -6,7 +6,7 @@ An agent-run studio that creates personalized, evolving game assets, learns each
 
 **Selected concept:** [Idea 2](docs/idea.md)
 
-**Status:** Planning; integrations and application code are not implemented yet.
+**Status:** Initial local OpenCode/OpenForma design integration; the studio workflow is planned.
 
 ## Vision
 
@@ -83,7 +83,7 @@ These are logical responsibilities; the MVP can implement several roles in one r
 
 See [EPIC-001: Launch the sovereign agentic game asset studio](docs/epics/EPIC-001-agentic-game-asset-studio.md) for work items, dependencies, acceptance criteria, and the demo sequence.
 
-There is no application setup command yet. The first milestone establishes the runtime, verifies the selected integrations, and documents reproducible setup.
+Start with [physical design setup](docs/physical-designs.md) to connect OpenCode to the local OpenForma MCP and install the native CAD tools. Cognee, Superlinked, and the studio application remain planned.
 
 ## Project references
 
