@@ -99,3 +99,5 @@ Start with [physical design setup](docs/physical-designs.md) to connect OpenCode
 - [OpenForma agent integration documentation](https://github.com/Mapped-Assembly/OpenForma/blob/main/docs/agent-clients.md)
 
 Use [client reference ingestion](docs/client-references.md) to index approved source material through SIE Local and pass versioned references to the OpenForma design workflow.
+
+[Build and revise a game prop](docs/game-props.md) using the same client handoff, local OpenForma MCP, and a Godot-verified delivery package.
