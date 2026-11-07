@@ -101,3 +101,9 @@ Start with [physical design setup](docs/physical-designs.md) to connect OpenCode
 Use [client reference ingestion](docs/client-references.md) to index approved source material through SIE Local and pass versioned references to the OpenForma design workflow.
 
 [Build and revise a game prop](docs/game-props.md) using the same client handoff, local OpenForma MCP, and a Godot-verified delivery package.
+
+## Verified experiments
+
+- [Live client-reference and game-prop verification](docs/live-client-prop-verification.md): real SIE retrieval, Cognee recall, native CAD and Godot validation.
+- [Bellweather video-to-prospect experiment](docs/video-prospecting-verification.md): GMI Cloud trailer generation, local editing, SIE text embeddings and sourced prospect research.
+- [Generalizing asset-to-prospect workflows](docs/asset-prospecting-plan.md): proposed reusable contracts, commands and acceptance criteria; implementation remains future work.
