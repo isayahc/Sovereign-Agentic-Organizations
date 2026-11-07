@@ -1,0 +1,16 @@
+{
+  "client": "demo-workshop",
+  "brief": "Design a brass field relay for a maintenance game. Use the supplied reference for the enclosure and top dial.",
+  "references": [
+    {
+      "source_id": "a1313d5f-82b3-50c4-944c-725a8dbdad8b",
+      "asset": "relay-note",
+      "revision": 1,
+      "client": "demo-workshop",
+      "allowed": true,
+      "original": "client-note.md",
+      "sha256": "49ac335dc1d12e3f747f200aa0e5bf0b16f3f2096b699ea7bdd29aa7548bf752",
+      "terms": "Synthetic demo; permitted for generation"
+    }
+  ]
+}

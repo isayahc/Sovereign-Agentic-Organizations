@@ -1,0 +1,457 @@
+{
+  "client": "demo-workshop",
+  "brief": "Design a brass field relay for a maintenance game. Use the supplied reference for the enclosure and top dial.",
+  "preferences": [],
+  "assumptions": [
+    "Single brass alloy material. Bolt and vent placement are illustrative.",
+    "Static game prop with no functional electronics."
+  ],
+  "triangle_budget": 5000,
+  "versions": [
+    {
+      "request": "Design a brass field relay for a maintenance game. Use the supplied reference for the enclosure and top dial.",
+      "expected_xyz_mm": [
+        92,
+        64,
+        29
+      ],
+      "material": {
+        "name": "BrushedBrass",
+        "srgb": "b78a49",
+        "metallic": 0.72,
+        "roughness": 0.43
+      },
+      "project_ir": {
+        "mechanical": {
+          "enclosure_type": "Solid",
+          "mounting_guidance": "Place flange on a horizontal surface",
+          "manufacturability_rating": "Easy",
+          "cad_operations": [
+            {
+              "shape": "box",
+              "operation": "add",
+              "center": {
+                "x_mm": 0,
+                "y_mm": 0,
+                "z_mm": 2
+              },
+              "size": {
+                "x_mm": 92,
+                "y_mm": 64,
+                "z_mm": 4
+              }
+            },
+            {
+              "shape": "box",
+              "operation": "add",
+              "center": {
+                "x_mm": 0,
+                "y_mm": 0,
+                "z_mm": 11
+              },
+              "size": {
+                "x_mm": 82,
+                "y_mm": 56,
+                "z_mm": 16
+              }
+            },
+            {
+              "shape": "cylinder",
+              "operation": "add",
+              "center": {
+                "x_mm": -15,
+                "y_mm": 0,
+                "z_mm": 19
+              },
+              "size": {
+                "x_mm": 33,
+                "y_mm": 33,
+                "z_mm": 6
+              }
+            },
+            {
+              "shape": "cylinder",
+              "operation": "add",
+              "center": {
+                "x_mm": -15,
+                "y_mm": 0,
+                "z_mm": 25.5
+              },
+              "size": {
+                "x_mm": 24,
+                "y_mm": 24,
+                "z_mm": 7
+              }
+            },
+            {
+              "shape": "cylinder",
+              "operation": "add",
+              "center": {
+                "x_mm": -34,
+                "y_mm": -22,
+                "z_mm": 19
+              },
+              "size": {
+                "x_mm": 6,
+                "y_mm": 6,
+                "z_mm": 4
+              }
+            },
+            {
+              "shape": "cylinder",
+              "operation": "add",
+              "center": {
+                "x_mm": -34,
+                "y_mm": 22,
+                "z_mm": 19
+              },
+              "size": {
+                "x_mm": 6,
+                "y_mm": 6,
+                "z_mm": 4
+              }
+            },
+            {
+              "shape": "cylinder",
+              "operation": "add",
+              "center": {
+                "x_mm": 34,
+                "y_mm": -22,
+                "z_mm": 19
+              },
+              "size": {
+                "x_mm": 6,
+                "y_mm": 6,
+                "z_mm": 4
+              }
+            },
+            {
+              "shape": "cylinder",
+              "operation": "add",
+              "center": {
+                "x_mm": 34,
+                "y_mm": 22,
+                "z_mm": 19
+              },
+              "size": {
+                "x_mm": 6,
+                "y_mm": 6,
+                "z_mm": 4
+              }
+            },
+            {
+              "shape": "box",
+              "operation": "cut",
+              "center": {
+                "x_mm": 19,
+                "y_mm": -9,
+                "z_mm": 18
+              },
+              "size": {
+                "x_mm": 19,
+                "y_mm": 2.6,
+                "z_mm": 7
+              }
+            },
+            {
+              "shape": "box",
+              "operation": "cut",
+              "center": {
+                "x_mm": 19,
+                "y_mm": -3,
+                "z_mm": 18
+              },
+              "size": {
+                "x_mm": 19,
+                "y_mm": 2.6,
+                "z_mm": 7
+              }
+            },
+            {
+              "shape": "box",
+              "operation": "cut",
+              "center": {
+                "x_mm": 19,
+                "y_mm": 3,
+                "z_mm": 18
+              },
+              "size": {
+                "x_mm": 19,
+                "y_mm": 2.6,
+                "z_mm": 7
+              }
+            },
+            {
+              "shape": "box",
+              "operation": "cut",
+              "center": {
+                "x_mm": 19,
+                "y_mm": 9,
+                "z_mm": 18
+              },
+              "size": {
+                "x_mm": 19,
+                "y_mm": 2.6,
+                "z_mm": 7
+              }
+            },
+            {
+              "shape": "box",
+              "operation": "cut",
+              "center": {
+                "x_mm": -15,
+                "y_mm": 0,
+                "z_mm": 29
+              },
+              "size": {
+                "x_mm": 17,
+                "y_mm": 2.2,
+                "z_mm": 3
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "request": "Raise the dial grip to make the prop 46 mm tall and add two slots.",
+      "expected_xyz_mm": [
+        92,
+        64,
+        46
+      ],
+      "material": {
+        "name": "BrushedBrass",
+        "srgb": "b78a49",
+        "metallic": 0.72,
+        "roughness": 0.43
+      },
+      "project_ir": {
+        "mechanical": {
+          "enclosure_type": "Solid",
+          "mounting_guidance": "Place flange on a horizontal surface",
+          "manufacturability_rating": "Easy",
+          "cad_operations": [
+            {
+              "shape": "box",
+              "operation": "add",
+              "center": {
+                "x_mm": 0,
+                "y_mm": 0,
+                "z_mm": 2
+              },
+              "size": {
+                "x_mm": 92,
+                "y_mm": 64,
+                "z_mm": 4
+              }
+            },
+            {
+              "shape": "box",
+              "operation": "add",
+              "center": {
+                "x_mm": 0,
+                "y_mm": 0,
+                "z_mm": 11
+              },
+              "size": {
+                "x_mm": 82,
+                "y_mm": 56,
+                "z_mm": 16
+              }
+            },
+            {
+              "shape": "cylinder",
+              "operation": "add",
+              "center": {
+                "x_mm": -15,
+                "y_mm": 0,
+                "z_mm": 19
+              },
+              "size": {
+                "x_mm": 33,
+                "y_mm": 33,
+                "z_mm": 6
+              }
+            },
+            {
+              "shape": "cylinder",
+              "operation": "add",
+              "center": {
+                "x_mm": -15,
+                "y_mm": 0,
+                "z_mm": 34.0
+              },
+              "size": {
+                "x_mm": 24,
+                "y_mm": 24,
+                "z_mm": 24
+              }
+            },
+            {
+              "shape": "cylinder",
+              "operation": "add",
+              "center": {
+                "x_mm": -34,
+                "y_mm": -22,
+                "z_mm": 19
+              },
+              "size": {
+                "x_mm": 6,
+                "y_mm": 6,
+                "z_mm": 4
+              }
+            },
+            {
+              "shape": "cylinder",
+              "operation": "add",
+              "center": {
+                "x_mm": -34,
+                "y_mm": 22,
+                "z_mm": 19
+              },
+              "size": {
+                "x_mm": 6,
+                "y_mm": 6,
+                "z_mm": 4
+              }
+            },
+            {
+              "shape": "cylinder",
+              "operation": "add",
+              "center": {
+                "x_mm": 34,
+                "y_mm": -22,
+                "z_mm": 19
+              },
+              "size": {
+                "x_mm": 6,
+                "y_mm": 6,
+                "z_mm": 4
+              }
+            },
+            {
+              "shape": "cylinder",
+              "operation": "add",
+              "center": {
+                "x_mm": 34,
+                "y_mm": 22,
+                "z_mm": 19
+              },
+              "size": {
+                "x_mm": 6,
+                "y_mm": 6,
+                "z_mm": 4
+              }
+            },
+            {
+              "shape": "box",
+              "operation": "cut",
+              "center": {
+                "x_mm": 19,
+                "y_mm": -15,
+                "z_mm": 18
+              },
+              "size": {
+                "x_mm": 19,
+                "y_mm": 2.6,
+                "z_mm": 7
+              }
+            },
+            {
+              "shape": "box",
+              "operation": "cut",
+              "center": {
+                "x_mm": 19,
+                "y_mm": -9,
+                "z_mm": 18
+              },
+              "size": {
+                "x_mm": 19,
+                "y_mm": 2.6,
+                "z_mm": 7
+              }
+            },
+            {
+              "shape": "box",
+              "operation": "cut",
+              "center": {
+                "x_mm": 19,
+                "y_mm": -3,
+                "z_mm": 18
+              },
+              "size": {
+                "x_mm": 19,
+                "y_mm": 2.6,
+                "z_mm": 7
+              }
+            },
+            {
+              "shape": "box",
+              "operation": "cut",
+              "center": {
+                "x_mm": 19,
+                "y_mm": 3,
+                "z_mm": 18
+              },
+              "size": {
+                "x_mm": 19,
+                "y_mm": 2.6,
+                "z_mm": 7
+              }
+            },
+            {
+              "shape": "box",
+              "operation": "cut",
+              "center": {
+                "x_mm": 19,
+                "y_mm": 9,
+                "z_mm": 18
+              },
+              "size": {
+                "x_mm": 19,
+                "y_mm": 2.6,
+                "z_mm": 7
+              }
+            },
+            {
+              "shape": "box",
+              "operation": "cut",
+              "center": {
+                "x_mm": 19,
+                "y_mm": 15,
+                "z_mm": 18
+              },
+              "size": {
+                "x_mm": 19,
+                "y_mm": 2.6,
+                "z_mm": 7
+              }
+            },
+            {
+              "shape": "box",
+              "operation": "cut",
+              "center": {
+                "x_mm": -15,
+                "y_mm": 0,
+                "z_mm": 46
+              },
+              "size": {
+                "x_mm": 17,
+                "y_mm": 2.2,
+                "z_mm": 3
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "references": [
+    {
+      "source_id": "a1313d5f-82b3-50c4-944c-725a8dbdad8b",
+      "revision": 1,
+      "sha256": "49ac335dc1d12e3f747f200aa0e5bf0b16f3f2096b699ea7bdd29aa7548bf752"
+    }
+  ]
+}
