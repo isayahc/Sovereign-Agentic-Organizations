@@ -1,0 +1,2 @@
+# Isolated from the OpenForma/Tinfoil environment by setup-memory.ps1.
+cognee-mcp==0.5.8
