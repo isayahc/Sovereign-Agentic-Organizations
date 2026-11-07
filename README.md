@@ -97,3 +97,5 @@ Start with [physical design setup](docs/physical-designs.md) to connect OpenCode
 - [Superlinked notes](docs/sponsors/SuperLinked.md)
 - [OpenForma repository](https://github.com/Mapped-Assembly/OpenForma)
 - [OpenForma agent integration documentation](https://github.com/Mapped-Assembly/OpenForma/blob/main/docs/agent-clients.md)
+
+Use [client reference ingestion](docs/client-references.md) to index approved source material through SIE Local and pass versioned references to the OpenForma design workflow.
